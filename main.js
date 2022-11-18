@@ -22,7 +22,7 @@ camera.lookAt(new THREE.Vector3(0, 0, 0));
 
 renderer.render(scene, camera);
 
-const geometry = new THREE.TorusGeometry(10, 2, 16, 100);
+const geometry = new THREE.TorusGeometry(10, 1.5, 16, 100);
 const material = new THREE.MeshStandardMaterial({ color: 0xFF6347});
 const torus = new THREE.Mesh(geometry, material);
 
